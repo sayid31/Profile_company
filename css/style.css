@@ -1,0 +1,253 @@
+/* Base Settings & Dark Theme */
+:root {
+    --bg-color: #0f172a;
+    --nav-bg: rgba(15, 23, 42, 0.9);
+    --text-color: #e2e8f0;
+    --accent-color: #38bdf8;
+    --card-bg: #1e293b;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* NAVBAR DIPERBARUI */
+.navbarNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--nav-bg);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    border-bottom: 1px solid #334155;
+}
+
+.navContainer {
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between; /* Memisahkan logo dan menu */
+    align-items: center;
+}
+
+/* Styling untuk sayid_dev31 */
+.titleNav {
+    color: var(--accent-color);
+    font-size: 1.4em;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.titleNav span{
+    color: antiquewhite;
+}
+
+.titleNav .dev{
+    color: darkgoldenrod;
+}
+
+.linkNav a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover { color: var(--accent-color); }
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 100px 0 50px 0; 
+}
+
+h2.sectionTitle {
+    text-align: center;
+    color: var(--accent-color);
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80vh;
+    padding-top: 120px;
+    gap: 30px;
+    border-bottom: none;
+}
+
+.heroText { 
+    flex: 1; 
+}
+.heroText h1 { 
+    font-size: 3.5em; 
+    margin: 0 0 10px 0; 
+    color: #ffffff; 
+    line-height: 1;
+}
+.heroText h2 { 
+    font-size: 1.5em; 
+    color: var(--accent-color); 
+    margin-top: 0; 
+}
+.heroText p { 
+    font-size: 1.1em; 
+    color: #94a3b8; 
+    margin-bottom: 25px; 
+}
+
+.btnCv {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: #0f172a;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.btnCv:hover {
+    transform: translateY(-3px);
+    background-color: #0ea5e9;
+}
+
+.heroImg { flex: 1; display: flex; justify-content: center; }
+.heroImg img {
+    width: 300px; height: 300px; object-fit: cover;
+    border-radius: 50%; border: 4px solid var(--accent-color);
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+/* ABOUT SECTION */
+.aboutContent {
+    display: flex; align-items: center; gap: 50px; max-width: 900px; margin: auto;
+}
+
+.aboutVisual {
+    flex: 1; 
+    text-align: center; 
+}
+
+.aboutVisual img {
+    width: 400px; 
+    height: 250px; 
+    object-fit: cover;
+    border: 3px solid var(--accent-color); margin-bottom: 20px;
+}
+
+.aboutText { flex: 1.5; font-size: 1.1em; color: #cbd5e1; }
+
+/* SKILLS SECTION */
+.skills-container { max-width: 800px; margin: auto; }
+.skills-category { margin-bottom: 25px; }
+.skills-category h3 { color: #ffffff; margin-bottom: 10px; font-size: 1.2em; }
+.skills-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.skill-tag {
+    background-color: var(--card-bg); border: 1px solid #334155;
+    padding: 8px 18px; border-radius: 30px; font-weight: 600;
+    font-size: 0.95em; transition: all 0.3s;
+}
+.skill-tag:hover { border-color: var(--accent-color); color: var(--accent-color); transform: translateY(-2px); }
+.primary-tag { border-color: rgba(56, 189, 248, 0.4); background-color: rgba(56, 189, 248, 0.05); }
+
+/* PROJECTS SECTION */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    border-top: 4px solid var(--accent-color);
+    transition: transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover { transform: translateY(-10px); }
+
+.project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #334155;
+}
+
+.card-body {
+    padding: 25px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 { margin-top: 0; color: #ffffff; }
+.card p { color: #94a3b8; font-size: 0.95em; flex: 1; margin-bottom: 20px;}
+
+.card-links {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-small {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--accent-color);
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+.btn-outline:hover { background-color: rgba(56, 189, 248, 0.1); }
+
+/* CONTACT SECTION */
+.contact-content { text-align: center; background-color: var(--card-bg); padding: 40px; border-radius: 10px; }
+.contact-content a { color: var(--accent-color); text-decoration: none; font-size: 1.2em; margin: 0 15px; }
+footer { text-align: center; padding: 30px; color: #64748b; font-size: 0.9em; }
+
+/* RESPONSIVE UNTUK HP */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav-links a {
+        margin: 0 10px;
+        font-size: 0.9em;
+    }
+    #hero, .about-content { flex-direction: column-reverse; text-align: center; padding-top: 130px; }
+    .about-content { flex-direction: column; }
+}

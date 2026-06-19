@@ -251,3 +251,74 @@ footer { text-align: center; padding: 30px; color: #64748b; font-size: 0.9em; }
     #hero, .about-content { flex-direction: column-reverse; text-align: center; padding-top: 130px; }
     .about-content { flex-direction: column; }
 }
+
+/* RESPONSIVITAS */
+@media screen and (max-width: 768px) {
+    /* 1. Navbar bertumpuk rapi di tengah */
+    .navContainer {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .linkNav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* 2. Hero & About (Menjadi 1 kolom bertumpuk) */
+    .hero, .aboutContent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Memastikan gambar hero dan about tidak kebesaran di HP */
+    .heroImg img, .aboutVisual img {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    /* 3. Kartu Proyek (Card) berbaris ke bawah */
+    .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr; /* Memaksa jadi 1 kolom */
+        gap: 20px;
+        padding: 0 15px;
+    }
+
+    .card-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* 4. Penyesuaian Ukuran Teks agar pas di layar kecil */
+    h1 {
+        font-size: 2rem;
+    }
+    h2, .sectionTitle {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 0.95rem;
+    }
+
+    /* 5. Tombol memanjang agar mudah di-tap di layar sentuh */
+    .btnCv, .btn-small {
+        display: block;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    /* 6. Merapikan bagian kontak */
+    .contact-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}

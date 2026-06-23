@@ -1,44 +1,37 @@
-# 👨‍💻 Muhamad Sayid Amanulloh's Developer Portfolio
+# 👨‍💻 Sayid_Dev31's Developer Portfolio (Minimalist Edition)
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Selamat datang di repositori sumber kode untuk web portofolio personal saya. Web ini dibangun dengan konsep antarmuka *Deep Dark Terminal* yang merepresentasikan efisiensi, performa tinggi, dan ketajaman logika dalam pengembangan teknologi.
+Selamat datang di repositori portofolio personal saya. Versi ini dirancang dengan pendekatan **Minimalis menggunakan HTML dan CSS murni**, yang berfokus pada fundamental desain antarmuka dan struktur web yang bersih.
 
 *(Catatan: Repositori ini dinamai `Profile_company` untuk keperluan historis internal, namun ini merupakan repositori resmi untuk Web Portofolio Personal saya).*
 
 ---
 
 ## 🎯 Fokus Keahlian & Visi
-Saya adalah seorang pengembang yang berfokus pada solusi *End-to-End*. Keahlian utama saya meliputi:
+Sebagai seorang pengembang teknologi, saya percaya bahwa pemahaman mendalam pada fundamental (HTML/CSS) adalah kunci sebelum menguasai teknologi yang lebih kompleks. Fokus pengembangan saya meliputi:
 
-* **Backend Engineering:** Membangun RESTful API yang aman dengan Node.js, Express, dan implementasi JWT serta *middleware* autentikasi.
-* **IoT & Embedded Systems:** Perancangan sistem otomatisasi berbasis hardware (Arduino) dengan logika aktuator presisi.
-* **Tech-Business Integration:** Mengonversi inovasi teknis ke dalam rencana bisnis strategis (ROI, BEP, dan proyeksi finansial).
+* **Backend Engineering:** (Node.js, Express, JWT).
+* **IoT & Embedded Systems:** (Otomatisasi berbasis Arduino).
+* **Product Development:** (Analisis bisnis dan inovasi produk teknis).
 
-## 🚀 Highlight Proyek
-Repositori ini adalah bagian dari ekosistem proyek-proyek inovatif saya, yang mencakup:
-
-| Nama Proyek | Fokus Teknologi | Deskripsi Singkat |
-| :--- | :--- | :--- |
-| **Sistem Perpustakaan API** | Node.js, Express, JWT | Sistem manajemen perpustakaan dengan arsitektur database relasional. |
-| **Burger POS System** | Backend API, CRUD | Sistem kasir otomatis untuk manajemen menu dan transaksi F&B. |
-| **Sauber Composter** | Arduino Uno, IoT | Sistem otomatisasi pengelolaan limbah organik berbasis sensor. |
-| **Gaming Liquid Shield** | Mechanical Design | Inovasi *casing* pendingin untuk optimasi performa *smartphone*. |
+## 🚀 Mengapa HTML & CSS?
+Meskipun saya memiliki keahlian dalam teknologi *backend* dan *framework* modern, portofolio ini dibangun dengan HTML/CSS murni untuk menunjukkan:
+* **Performa Maksimal:** Waktu *loading* yang sangat cepat tanpa dependensi tambahan.
+* **Struktur Bersih:** Kode yang mudah dipelajari, dimodifikasi, dan dipahami oleh siapa saja yang baru memulai belajar web desain.
+* **Fundamental Desain:** Ketelitian dalam mengatur tata letak, tipografi, dan estetika visual.
 
 ---
 
-## 🛠️ Tech Stack Portofolio
-Web ini dioptimalkan untuk kecepatan dan pengalaman pengguna dengan teknologi modern:
-* **Frontend Framework:** React.js
-* **Build Engine:** Vite
-* **Styling:** Tailwind CSS (v3)
-* **Deployment:** GitHub Pages (Automated via GitHub Actions)
+## 🛠️ Tech Stack
+* **Markup:** HTML5
+* **Styling:** CSS3 (Modern techniques)
+* **Deployment:** GitHub Pages
 
 ## 💻 Cara Menjalankan Secara Lokal
-Ingin mempelajari atau mereplikasi struktur portofolio ini? Anda bisa menjalankannya di komputer lokal Anda:
+Karena proyek ini berbasis *statik*, Anda tidak perlu melakukan instalasi dependensi apapun:
 
 1. **Clone repositori:**
-   ```bash
+```bash
    git clone [https://github.com/sayid31/Profile_company.git](https://github.com/sayid31/Profile_company.git)
